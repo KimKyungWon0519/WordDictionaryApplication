@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">WordDictionaryApplication</string>
     <string name="toolbar_title">나만의 단어장</string>
+    <string name="add_word">단어 추가</string>
+    <string name="search">검색</string>
+    <string name="country_category">국가 카테고리</string>
 </resources>
