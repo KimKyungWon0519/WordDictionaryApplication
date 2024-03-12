@@ -4,4 +4,7 @@
     <string name="add_word">단어 추가</string>
     <string name="search">검색</string>
     <string name="country_category">국가 카테고리</string>
+    <string name="mean_label">단어 뜻</string>
+    <string name="search_result">검색 결과</string>
+    <string name="search_field_guideline">한국어 단어를 검색해주세요.</string>
 </resources>
