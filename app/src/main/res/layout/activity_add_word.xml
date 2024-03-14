@@ -19,13 +19,13 @@
         app:title="@string/add_word" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
+        android:id="@+id/searchField"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/searchButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar2"
@@ -37,16 +37,16 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/searchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:text="@string/search"
-        app:layout_constraintBottom_toBottomOf="@id/textInputLayout"
+        app:layout_constraintBottom_toBottomOf="@id/searchField"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textInputLayout"
-        app:layout_constraintTop_toTopOf="@id/textInputLayout" />
+        app:layout_constraintStart_toEndOf="@+id/searchField"
+        app:layout_constraintTop_toTopOf="@id/searchField" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/menu"
@@ -55,9 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="@string/country_category"
-        app:layout_constraintEnd_toEndOf="@id/button"
-        app:layout_constraintStart_toStartOf="@id/textInputLayout"
-        app:layout_constraintTop_toBottomOf="@id/textInputLayout">
+        app:layout_constraintEnd_toEndOf="@id/searchButton"
+        app:layout_constraintStart_toStartOf="@id/searchField"
+        app:layout_constraintTop_toBottomOf="@id/searchField">
 
         <AutoCompleteTextView
             android:layout_width="match_parent"
