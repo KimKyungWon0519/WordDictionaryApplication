@@ -1,4 +1,4 @@
-package app.kkw.worddictionaryapplication
+package app.kkw.worddictionaryapplication.view
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.google.android.material.textfield.TextInputEditText
+import app.kkw.worddictionaryapplication.R
 import com.google.android.material.textfield.TextInputLayout
 
 class AddWordActivity : AppCompatActivity() {
